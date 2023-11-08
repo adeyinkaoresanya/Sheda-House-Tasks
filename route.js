@@ -2,7 +2,7 @@ import { Router } from "express";
 
 const router = Router();
 
-router.get("/api", (req, res) => {
+router.get("/calculate", (req, res) => {
   const num1 = Number(req.query.num1);
   const num2= Number(req.query.num2);
   const operator = req.query.operator;
